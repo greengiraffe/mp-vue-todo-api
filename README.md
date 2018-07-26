@@ -1,24 +1,21 @@
-# README
+# API for the Vue.js ToDo-App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the very basic Rails JSON API for a Vue.js ToDo App: https://github.com/greengiraffe/mp-vue-todo
 
-Things you may want to cover:
+Made for the International Media and Computing Master Course "Media Programming" at University of Applied Sciences Berlin (HTW Berlin). See http://home.htw-berlin.de/~kleinen/classes/ss2018/media-programming-rails/assignments/.
 
-* Ruby version
+The result is currently live on https://greengiraffe.github.io/mp-vue-todo/ but may be taken down at any time. ;-)
 
-* System dependencies
 
-* Configuration
+## Routes
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+| Action         	| Route            	|
+|----------------	|------------------	|
+| GET Todos      	| /todos           	|
+| POST Todo      	| /todos           	|
+| PUT Todo       	| /todos/{id}      	|
+| GET Todo       	| /todos/{id}      	|
+| GET Categories 	| /categories      	|
+| POST Category  	| /categories      	|
+| PUT Category   	| /categories/{id} 	|
+| GET Category   	| /categories/{id} 	|
